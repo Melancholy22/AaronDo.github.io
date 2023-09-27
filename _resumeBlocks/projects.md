@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Projects
-order_number: 3
+order_number: 4
 ---
 
 {% for projects in site.data.project %}
@@ -14,7 +14,9 @@ order_number: 3
       <header class="section-header">
         <h4>Related Links</h4>
       </header>
-      <p class="resume-item-urls">{{ projects.urls }}</p>
+      <ul>{% for url in projects.urls %}
+        <li><a class="resume-item-urls" href="{{url.u}}">{{ url.hl }}</a></li>
+      {% endfor %}</ul>
     {% endif %}
     {% if projects.youtube != null %}
       {% include youtube.html id=projects.youtube %}

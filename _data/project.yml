@@ -5,11 +5,11 @@
   timeframe: Jan, 2022 &mdash; May, 2022
   description: A tower defense game inspired by popular games such as Clash Royale and Battle Cats. 
   role:
-    <li>Led multidisciplinary team</li>
+    <ul><li>Led multidisciplinary team</li>
     <li>Developed VFX using Unity VFX Graph</li>
     <li>Applied Unity navmesh path find to enemy AI</li>
     <li>Implemented weapon and health system in C#</li>
-    <li>Created 'Game Over' animation and scene</li>
+    <li>Created 'Game Over' animation and scene</li></ul>
   youtube: 6a3Kjr523JI
   urls:
 
@@ -18,41 +18,41 @@
   timeframe: Jul, 2022 &mdash; Jan, 2023
   description: Agent-Based Models (ABMs) are a dynamic, computational approach that represents individuals, groups, or organizations as autonomous software agents that all interact, influence, and adapt to their surrounding. The objective of this project is to apply ABMs to complex systems, such as disease spread, to simulate real-world scenarios. 
   role:
-    <li>Explored the field of ABMs to model complex and adaptive systems,
+    <ul><li>Explored the field of ABMs to model complex and adaptive systems,
      such as the transmissions of diseases and its iteractions with the human population</li>
     <li>Developed model in Repast Suite platform to utilize its parallel computation resources on large scale ABM methodology</li>
     <li>Created and executed simulation on Python using synthetic, million node Watts-Strogatz network</li>
     <li>Applied compartmental epidemiology models on Agent-Based Model paradigm to simulate real-world scenarios, 
     validated with real-world data from the Coronavirus Disease of 2019, provided by the U.S. Centers for Disease Control and Prevention.</li>
-    <li>Authored research journal accepted by the Computer Science Conference for CSU Undergraduates (CSCSU 2023)</li>
+    <li>Authored research journal accepted by the Computer Science Conference for CSU Undergraduates (CSCSU 2023)</li></ul>
   youtube:
   urls:
-    <li>https://scholarworks.calstate.edu/concern/publications/q524jw25t</li>
+    - {u: https://scholarworks.calstate.edu/concern/publications/q524jw25t, hl: Publication}
 
 # ideART
 - name: ideART Mobile and Web Application
   timeframe: Oct, 2022 &mdash; Dec, 2022
   description: Art idea generator and social media app developed in ReactJS and Flutter with AWS Amplify as the backend. Users can participate in monthly challenges to compete and see what other artist made. This app was inspired by r/Photoshop battles and other art posting platforms.
   role:
-    <li>Prototype and Wireframed using Figma</li>
+    <ul><li>Prototype and Wireframed using Figma</li>
     <li>Utilized AWS Amplify to mode data in GraphQL format, allowing users to create, modify, and delete posts</li>
     <li>Generated authentication methods that allowed users to sign in and create posts based on permission levels</li>
     <li>Implement S3 storage so users could submit images</li>
-    <li>Linked AWS Amplify backend to mobile app</li>
+    <li>Linked AWS Amplify backend to mobile app</li></ul>
   youtube:
   urls:
-    <li> https://www.ar2t.me/</li>
-    <li> https://play.google.com/store/apps/details?id=com.melonchollie.ideArtApp&hl=en_US</li>
+    - {u: https://www.ar2t.me/, hl: Web Link}
+    - {u: https://play.google.com/store/apps/details?id=com.melonchollie.ideArtApp&hl=en_US, hl: Google Playstore}
 
 # Spot Delivery Robot
 - name: Boston Dynamics SPOT Robot - Package Delivery
   timeframe: Jan, 2023 &mdash; May, 2023
   description: Spot Package delivery service
   role:
-    <li>Explored the different funtionality and features of the Boston Dynamics SPOT robot</li>
+    <ul><li>Explored the different funtionality and features of the Boston Dynamics SPOT robot</li>
     <li>Developed software to pick up and deliver packages using Python</li>
     <li>Applied the use of fiducial recognition to recognize pickup/drop-off locations and detect packages</li>
     <li>Responsible for maintaining and updating hardware/software</li>
-    <li>Utilized Autowalk function in order to record routes for delivery</li>
+    <li>Utilized Autowalk function in order to record routes for delivery</li></ul>
   youtube: 
   urls:
