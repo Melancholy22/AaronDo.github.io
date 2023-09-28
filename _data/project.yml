@@ -42,7 +42,7 @@
   youtube:
   urls:
     - {u: https://www.ar2t.me/, hl: Web Link}
-    # - {u: https://play.google.com/store/apps/details?id=com.melonchollie.ideArtApp&hl=en_US, hl: Google Playstore}
+    - {u: "https://play.google.com/store/apps/details?id=com.melonchollie.ideArtApp&hl=en_US", hl: Google Playstore}
 
 # Spot Delivery Robot
 - name: Boston Dynamics SPOT Robot - Package Delivery
