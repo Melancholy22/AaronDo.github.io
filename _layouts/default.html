@@ -3,13 +3,14 @@
 
   {% include head.html %}
 
-  <body>
+  <body data-barba="wrapper">
+    <header data-barba="container" class="fade" data-background="#CC98C0">
+      {% include sidebar.html %}
 
-    {% include sidebar.html %}
-
-    <div class="content container">
-      {{ content }}
-    </div>
-
+      <div class="content container">
+        {{ content }}
+      </div>
+    </header>
+    <script type="module" src="js/app.js"></script>
   </body>
 </html>
