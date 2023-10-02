@@ -17,3 +17,14 @@ ul {
     height: 100%;
     border: 0;
 }
+.home-once {
+    opacity: 0;
+}
+
+.home-once-active {
+    transition: opacity 3s linear 0.3s;
+}
+
+.home-once-to {
+    opacity: 1;
+}

@@ -19,8 +19,8 @@ order_number: 4
         <li><a class="resume-item-urls" href="{{url.u}}">{{ url.hl }}</a></li>
       {% endfor %}</ul>
     {% endif %}
-    {% if projects.youtube != null %}
+    <!-- {% if projects.youtube != null %}
       {% include youtube.html id=projects.youtube %}
-    {% endif %}
+    {% endif %} -->
   <!-- </div> -->
 {% endfor %}
