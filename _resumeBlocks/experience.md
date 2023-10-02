@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Work Experience
+num: A1
 order_number: 2
 ---
 

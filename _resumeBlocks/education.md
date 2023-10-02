@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Education
+num: A2
 order_number: 3
 ---
   <!-- begin Education -->

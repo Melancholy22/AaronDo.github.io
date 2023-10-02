@@ -7,7 +7,7 @@ title: Home
   {% assign ordered_blocks = site.resumeBlocks | sort:"order_number" %}
   {% for block in ordered_blocks %}
   <div class="post">
-    <h1 class="post-title">
+    <h1 class="post-title", id={{block.num}}>
         {{ block.title }}
     </h1>
 

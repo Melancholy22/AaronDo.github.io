@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Introducing Aaron Do
+num: A0
 order_number: 1
 ---
 
